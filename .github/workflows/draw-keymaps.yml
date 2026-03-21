@@ -15,4 +15,5 @@ jobs:
     with:
       keymap_patterns: "config/*.keymap"
       output_folder: "images"
+      json_path: "config"
       amend_commit: false
