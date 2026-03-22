@@ -8,7 +8,7 @@ layers:
   - T
   - Y
   - U
-  - {t: I, h: '5'}
+  - {t: I, h: SCROLL}
   - O
   - P
   - A
@@ -39,7 +39,7 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - {t: '&to_layer_0 F13', h: '6'}
-  - {t: SPACE, h: '6'}
+  - {t: SPACE, h: NUM}
   - {t: '&to_layer_0 F14', h: ARROW}
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
@@ -88,50 +88,50 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - F12
-  '6':
-  - {t: ▽, type: trans}
-  - Ctl+Sft+TAB
-  - {t: ▽, type: trans}
-  - Ctl+TAB
-  - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - LEFT ALT
-  - TAB
-  - Sft+TAB
-  - TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&studio_unlock'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  NUM:
+  - '-'
+  - '7'
+  - '8'
+  - '9'
+  - +
+  - ^
+  - '&'
+  - '~'
+  - (
+  - )
+  - /
+  - '4'
+  - '5'
+  - '6'
+  - '*'
+  - Ctl+Alt+KP 0
+  - _
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - {t: '0', h: LEFT SHIFT}
   - '1'
   - '2'
   - '3'
+  - .
+  - '='
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&bootloader'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT CLR
+  - '['
+  - ']'
+  - '{'
+  - '}'
+  - \
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR ALL
+  - '|'
   ARROW:
   - ESCAPE
   - Ctl+Sft+TAB
@@ -176,7 +176,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '4':
+  MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -220,7 +220,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '5':
+  SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -264,6 +264,50 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  '6':
+  - {t: ▽, type: trans}
+  - Ctl+Sft+TAB
+  - {t: ▽, type: trans}
+  - Ctl+TAB
+  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - LEFT ALT
+  - TAB
+  - Sft+TAB
+  - TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&studio_unlock'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR ALL
   7_ctrl_encoder_off:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
