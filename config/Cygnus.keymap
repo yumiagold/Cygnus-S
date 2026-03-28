@@ -1,4 +1,4 @@
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 60    // default: 10 (120 was 1 full notch)
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 120
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
