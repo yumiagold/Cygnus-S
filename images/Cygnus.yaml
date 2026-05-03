@@ -226,11 +226,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+LEFT
   - PAGE UP
   - {type: held}
   - PAGE DOWN
-  - {t: ▽, type: trans}
+  - Alt+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
